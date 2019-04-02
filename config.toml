@@ -1,4 +1,4 @@
-baseURL = "http://diego.medina.codes"
+baseURL = "https://diego.medina.codes"
 languageCode = "en-us"
 title = "Diego Medina"
 theme = 'KeepIt'
