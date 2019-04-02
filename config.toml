@@ -1,0 +1,98 @@
+baseURL = "http://diego.medina.codes"
+languageCode = "en-us"
+title = "Diego Medina"
+theme = 'keepit'
+
+[params]
+    # since = 2019
+    author = "Diego Medina"               # Author's name
+    subtitle = "A software engineer in Atlanta who likes to draw from time to time"       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+
+    google_verification = ""
+    bing_verification = ""
+    yandex_verification = ""
+    pinterest_verification = ""
+    baidu_verification = ""
+
+    avatar = "/images/avatar.jpg" #comment it to use gravatar
+    socialShare = true
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+
+[params.social]
+    GitHub = "bartlebyy"
+    Linkedin = "diegoramiromedina"
+    Dribble = "eni1"
+    Deviantart = "demonrath0"
+    #Twitter = "xxxx"
+    #Instagram = "xxxx"
+    #Email   = "xxxx"
+    #Facebook = "xxxx"
+    #Telegram = "xxxx"
+    #Medium = "xxxx"
+    #Gitlab = "xxxx"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    #Youtubechannel = "xxxx"
+    #Tumblr ="xxxx"
+    #Quora = "xxxx"
+    #Keybase = "xxxx"
+    #Pinterest = "xxxx"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Bitbucket = "xxxx"
+    #Stackoverflow = "xxxxx"
+    #Weibo = "xxxx"
+    #Odnoklassniki = "xxxx"
+    #VKontakte = "xxxx"
+    #Flickr = "xxxx"
+    #Xing = "xxxx"
+    #Snapchat = "xxxx"
+    #Soundcloud = "xxxx"
+    #Spotify = "xxxx"
+    #Bandcamp = "xxxx"
+    #Paypal = "xxxx"
+    #Fivehundredpx = "xxxx"
+    #Mix = "xxxx"
+    #Goodreads = "xxxx"
+    #Lastfm = "xxxx"
+    #Foursquare = "xxxx"
+    #Hackernews = "xxxx"
+    #Kickstarter = "xxxx"
+    #Patreon = "xxxx"
+    #Steam = "xxxx"
+    #Twitch = "xxxx"
+    #Strava = "xxxx"
+    #Skype = "xxxx"
+    #Whatsapp = "xxxx"
+    #Zhihu = "xxxx"
+    #Douban = "xxxx"
+    #Angellist = "xxxx"
+    #Slidershare = "xxxx"
+    #Jsfiddle = "xxxx"
+    #Behance = "xxxx"
+    #Wordpress = "xxxx"
+    #Vine = "xxxx"
+    #Googlescholar = "xxxx"
+    #Researchgate = "xxxx"
+    #Mastodon = "xxxx"
+    #Thingiverse = "xxxx"
+
+[params.share]
+#Twitter = true
+#Facebook = true
+#Reddit = true
+Linkedin = true
+#Pinterest = true
+#HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
