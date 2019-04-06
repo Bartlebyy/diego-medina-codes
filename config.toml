@@ -16,7 +16,7 @@ theme = 'KeepIt'
     pinterest_verification = ""
     baidu_verification = ""
 
-    avatar = "/images/avatar.jpg" #comment it to use gravatar
+    avatar = "/images/diego_avatar.png" #comment it to use gravatar
     socialShare = true
 
     description = "" # site description
