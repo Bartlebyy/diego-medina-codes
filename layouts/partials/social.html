@@ -1,8 +1,8 @@
 {{ with .Site.Params.Social.Github }}
-<a href="https://github.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-github"></i></a>
+<a href="https://github.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank" aria-label="Github profile"><i class="iconfont icon-github"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.LinkedIn }}
-<a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-linkedin"></i></a>
+<a href="https://linkedin.com/in/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank" aria-label="Linkedin profile"><i class="iconfont icon-linkedin"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Twitter }}
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-twitter"></i></a>
@@ -20,7 +20,7 @@
 <a href="https://t.me/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-telegram-plane"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Medium}}
-<a href="https://medium.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-medium"></i></a>
+<a href="https://medium.com/{{.}}" rel="me noopener noreffer" target="_blank" aria-label="Medium profile"><i class="iconfont icon-medium"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Gitlab}}
 <a href="https://gitlab.com/{{.}}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-gitlab"></i></a>
@@ -146,7 +146,7 @@
 <a href="https://behance.net/{{ . }}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-behance"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Dribble}}
-<a href="https://dribbble.com/{{ . }}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-dribbble"></i></a>
+<a href="https://dribbble.com/{{ . }}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-dribbble" aria-label="Dribbble profile"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Wordpress}}
 <a href="https://{{ . }}.wordpress.com" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-wordpress"></i></a>
@@ -167,5 +167,5 @@
 <a href="https://www.thingiverse.com/{{ . }}" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-t"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Deviantart}}
-<a href="https://{{ . }}.deviantart.com/" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-deviantart"></i></a>
+<a href="https://{{ . }}.deviantart.com/" rel="me noopener noreffer" target="_blank" aria-label="Deviantart profile"><i class="iconfont icon-deviantart"></i></a>
 {{ end }}
