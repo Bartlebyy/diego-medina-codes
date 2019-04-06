@@ -6,7 +6,7 @@ theme = 'KeepIt'
 [params]
     # since = 2019
     author = "Diego Medina"               # Author's name
-    subtitle = "A software engineer in Atlanta who likes to draw from time to time"       # Subtitle
+    subtitle = "A Rails developer, coder extraordinaire, and occasional artist who lives in Atlanta, GA"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 

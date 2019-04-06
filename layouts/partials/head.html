@@ -30,7 +30,7 @@
        {{ end }}
   </title>
   <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end}}">
-  <meta name="Description" content="Created by Diego Medina, webdeveloper, coder extaordinaire, lives in Atlanta, artist, rails developer, a software engineer in Atlanta who likes to draw from time to time">
+  <meta name="Description" content="A portfolio website for Diego Medina, a Rails developer, coder extraordinaire, and occasional artist who lives in Atlanta, GA">
   {{ partial "css" . }}
   {{ if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
